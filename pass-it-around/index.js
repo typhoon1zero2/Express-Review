@@ -17,11 +17,12 @@ app.get('/', (req, res) =>{
 app.get('/:number_of_bottles', (req, res) => {
     let beer = req.params.number_of_bottles
     if(beer <=0){
-        res.send(`<hr /><h1><center>King is Over!!</center></h1> <center><a href= /> Click Here To Start Over</center>`)
+        res.send(`<hr /><h1><center>King is Over!!</center></h1> <center><a href= /> Go Back to Homepage</center>`)
     }else {
         res.send(`<hr /><center><h2>${beer} King of Beer BUD-WISE-SIRR on the Wall!</h2> <a href=/${beer - 1}>Take 1 King, Pass it to the Queen</a></center>`)
-    }
-})
+    } 
+}) 
+
 
 
 //PORT LISTENER
