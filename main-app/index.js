@@ -19,9 +19,9 @@ function fibonacci(num) {
 
 app.get('/fibonacci/:num', (req, res) => {
     if (fibonacci(req.params.num) == true) {
-        res.send(`<h1>This is fibonacci </h1>`);
+        res.send(`<h1>Very good. It is Fibonacci.</h1>`);
     } else {
-        res.send('<h1>This is not fibonacci <h/1>');
+        res.send('<h1>I can tell this is not a fibonacci number. <h/1>');
     }
 });
 
