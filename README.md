@@ -16,7 +16,7 @@ If there are 0 bottles left, do not show a link to "take one down"`
   `You should use an anchortag with an href to link to the next 'page'`
 ### Part 2 Fibonacci
 `Back in your main app:`
-
+<img src="fibo.png">
 1. Make a basic express app in main-app
 2. Add `Fibonnacias` a comment in your application.
 3. Create a route 'fibonacci'
